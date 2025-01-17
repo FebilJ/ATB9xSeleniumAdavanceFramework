@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-10T20:54:06 IST" name="Default suite" finished-at="2025-01-10T20:54:06 IST" duration-ms="417">
+  <suite started-at="2025-01-17T21:54:45 IST" name="Default suite" finished-at="2025-01-17T21:55:01 IST" duration-ms="15947">
     <groups>
     </groups>
-    <test started-at="2025-01-10T20:54:06 IST" name="Default test" finished-at="2025-01-10T20:54:06 IST" duration-ms="417">
-      <class name="com.thetestingacademy.ATB9xSeleniumAdavanceFramework.Tests.Sample.TestSample">
-        <test-method signature="testSample0()[pri:0, instance:com.thetestingacademy.ATB9xSeleniumAdavanceFramework.Tests.Sample.TestSample@20b2475a]" started-at="2025-01-10T20:54:06 IST" name="testSample0" finished-at="2025-01-10T20:54:06 IST" duration-ms="128" status="PASS">
+    <test started-at="2025-01-17T21:54:45 IST" name="Default test" finished-at="2025-01-17T21:55:01 IST" duration-ms="15947">
+      <class name="com.thetestingacademy.ATB9xSeleniumAdavanceFramework.Tests.katalonCuraTestCases.TestkatalonCura_POM">
+        <test-method signature="testkatalon()[pri:0, instance:com.thetestingacademy.ATB9xSeleniumAdavanceFramework.Tests.katalonCuraTestCases.TestkatalonCura_POM@1be2019a]" started-at="2025-01-17T21:54:45 IST" name="testkatalon" finished-at="2025-01-17T21:55:00 IST" duration-ms="15815" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSample0 -->
-        <test-method signature="testSample1()[pri:0, instance:com.thetestingacademy.ATB9xSeleniumAdavanceFramework.Tests.Sample.TestSample@20b2475a]" started-at="2025-01-10T20:54:06 IST" name="testSample1" finished-at="2025-01-10T20:54:06 IST" duration-ms="11" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSample1 -->
-      </class> <!-- com.thetestingacademy.ATB9xSeleniumAdavanceFramework.Tests.Sample.TestSample -->
+        </test-method> <!-- testkatalon -->
+      </class> <!-- com.thetestingacademy.ATB9xSeleniumAdavanceFramework.Tests.katalonCuraTestCases.TestkatalonCura_POM -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
