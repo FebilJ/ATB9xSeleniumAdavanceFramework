@@ -17,8 +17,7 @@ public class LoginPage {
 	private By loginBtn = By.xpath("//button[@id='btn-login']");
 	
 	public void testLoginPage() {
-		
-		//driver.get("https://katalon-demo-cura.herokuapp.com/profile.php#login");
+
 		driver.findElement(username).sendKeys("John Doe");
 		driver.findElement(password).sendKeys("ThisIsNotAPassword");
 		driver.findElement(loginBtn).click();

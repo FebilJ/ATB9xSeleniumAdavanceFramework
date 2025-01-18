@@ -9,7 +9,6 @@ public class MakeBookingPage {
 	public MakeBookingPage(WebDriver driver) {
 		this.driver = driver;
 	}
-	
 	//Initialize Locators
 	private By facilitydropdown = By.xpath("//select[@id='combo_facility']/option[2]");
 	private By checkbox = By.xpath("//input[@name='hospital_readmission']");
@@ -17,10 +16,9 @@ public class MakeBookingPage {
 	private By dateBtn = By.xpath("//div[@class='input-group-addon']");
 	private By selectDate = By.xpath("//table[@class='table-condensed']/tbody/tr/td[1]");
 	private By comment = By.xpath("//textarea[@id='txt_comment']");
+	private By bookAppointmentbtn = By.xpath("//button[text()]");
 	
 	public void testMakeBookingPage() {
-		
-		//driver.get("//katalon-demo-cura.herokuapp.com/#appointment");
 		
 		driver.findElement(facilitydropdown).click();
 		driver.findElement(checkbox).click();
@@ -28,6 +26,7 @@ public class MakeBookingPage {
 		driver.findElement(dateBtn).click();
 		driver.findElement(selectDate).click();
 		driver.findElement(comment).sendKeys("Commenting using Selenium");
+		driver.findElement(bookAppointmentbtn).click();
 		
 		try {
 			Thread.sleep(3000);

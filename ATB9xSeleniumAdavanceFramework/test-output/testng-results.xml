@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-17T21:54:45 IST" name="Default suite" finished-at="2025-01-17T21:55:01 IST" duration-ms="15947">
+  <suite started-at="2025-01-18T15:35:24 IST" name="Default suite" finished-at="2025-01-18T15:35:46 IST" duration-ms="22093">
     <groups>
     </groups>
-    <test started-at="2025-01-17T21:54:45 IST" name="Default test" finished-at="2025-01-17T21:55:01 IST" duration-ms="15947">
+    <test started-at="2025-01-18T15:35:24 IST" name="Default test" finished-at="2025-01-18T15:35:46 IST" duration-ms="22093">
       <class name="com.thetestingacademy.ATB9xSeleniumAdavanceFramework.Tests.katalonCuraTestCases.TestkatalonCura_POM">
-        <test-method signature="testkatalon()[pri:0, instance:com.thetestingacademy.ATB9xSeleniumAdavanceFramework.Tests.katalonCuraTestCases.TestkatalonCura_POM@1be2019a]" started-at="2025-01-17T21:54:45 IST" name="testkatalon" finished-at="2025-01-17T21:55:00 IST" duration-ms="15815" status="PASS">
+        <test-method signature="testkatalon()[pri:0, instance:com.thetestingacademy.ATB9xSeleniumAdavanceFramework.Tests.katalonCuraTestCases.TestkatalonCura_POM@210ab13f]" started-at="2025-01-18T15:35:24 IST" name="testkatalon" finished-at="2025-01-18T15:35:46 IST" duration-ms="21959" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testkatalon -->

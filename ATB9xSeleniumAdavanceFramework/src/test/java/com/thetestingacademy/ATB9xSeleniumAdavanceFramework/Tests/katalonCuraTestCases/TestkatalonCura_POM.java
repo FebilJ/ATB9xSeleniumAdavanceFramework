@@ -3,6 +3,7 @@ package com.thetestingacademy.ATB9xSeleniumAdavanceFramework.Tests.katalonCuraTe
 import com.thetestingacademy.ATB9xSeleniumAdavanceFramework.pages.pageObjectModel.katalonCura.AppointmentPage;
 import com.thetestingacademy.ATB9xSeleniumAdavanceFramework.pages.pageObjectModel.katalonCura.LoginPage;
 import com.thetestingacademy.ATB9xSeleniumAdavanceFramework.pages.pageObjectModel.katalonCura.MakeBookingPage;
+import com.thetestingacademy.ATB9xSeleniumAdavanceFramework.pages.pageObjectModel.katalonCura.VerificationPage;
 
 import io.qameta.allure.Description;
 import io.qameta.allure.Owner;
@@ -75,5 +76,12 @@ import static org.assertj.core.api.Assertions.assertThat;
 	        	//Page 3
 	        	MakeBookingPage MakeBooking = new MakeBookingPage(driver);
 	        	MakeBooking.testMakeBookingPage();
+
+	        	//Page 4
+	        	VerificationPage VerifyText = new VerificationPage(driver);
+	        	String vText = VerifyText.testverifyPage();
+
+	        	assertThat(vText).isNotBlank().isNotNull().isNotEmpty();
+		        Assert.assertEquals(vText,"Appointment Confirmation");
 		   }
     }
