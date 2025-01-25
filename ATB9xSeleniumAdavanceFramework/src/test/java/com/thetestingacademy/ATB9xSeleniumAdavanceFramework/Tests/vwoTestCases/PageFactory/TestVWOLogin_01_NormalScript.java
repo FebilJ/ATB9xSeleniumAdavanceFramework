@@ -1,4 +1,4 @@
-package com.thetestingacademy.ATB9xSeleniumAdavanceFramework.Tests.vwoTestCases;
+package com.thetestingacademy.ATB9xSeleniumAdavanceFramework.Tests.vwoTestCases.PageFactory;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -10,7 +10,7 @@ import org.openqa.selenium.WebDriver;
 
 import io.qameta.allure.Description;
 
-public class TestVWOLogin {
+public class TestVWOLogin_01_NormalScript {
 	
 	@Description("Verify that with invalid email, pass, error message is shown on the app.vwo.com")
     @Test

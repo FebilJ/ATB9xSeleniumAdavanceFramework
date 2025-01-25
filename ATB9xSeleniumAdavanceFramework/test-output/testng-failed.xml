@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.thetestingacademy.ATB9xSeleniumAdavanceFramework.Tests.katalonCuraTestCases.TestkatalonCura_POM">
+      <class name="com.thetestingacademy.ATB9xSeleniumAdavanceFramework.Tests.vwoTestCases.PageFactory.TestVWOLogin_04_POM_PropertiesReader">
         <methods>
-          <include name="testMakeBookingPage"/>
-          <include name="testLoginPage"/>
+          <include name="testLoginNegativeVWO"/>
+          <include name="testLoginPositiveVWO"/>
         </methods>
-      </class> <!-- com.thetestingacademy.ATB9xSeleniumAdavanceFramework.Tests.katalonCuraTestCases.TestkatalonCura_POM -->
+      </class> <!-- com.thetestingacademy.ATB9xSeleniumAdavanceFramework.Tests.vwoTestCases.PageFactory.TestVWOLogin_04_POM_PropertiesReader -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

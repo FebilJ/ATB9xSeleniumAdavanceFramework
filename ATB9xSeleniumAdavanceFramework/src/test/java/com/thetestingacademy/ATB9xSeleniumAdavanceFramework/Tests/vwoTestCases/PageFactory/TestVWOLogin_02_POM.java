@@ -1,7 +1,4 @@
-package com.thetestingacademy.ATB9xSeleniumAdavanceFramework.Tests.vwoTestCases;
-
-import com.thetestingacademy.ATB9xSeleniumAdavanceFramework.pages.pageObjectModel.vwo.DashBoardPage;
-import com.thetestingacademy.ATB9xSeleniumAdavanceFramework.pages.pageObjectModel.vwo.LoginPage;
+package com.thetestingacademy.ATB9xSeleniumAdavanceFramework.Tests.vwoTestCases.PageFactory;
 
 import io.qameta.allure.Owner;
 import io.qameta.allure.Description;
@@ -15,13 +12,14 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-
+import com.thetestingacademy.ATB9xSeleniumAdavanceFramework.pages.pageObjectModel.vwo.normal.DashBoardPage;
+import com.thetestingacademy.ATB9xSeleniumAdavanceFramework.pages.pageObjectModel.vwo.normal.LoginPage;
 
 import static org.assertj.core.api.Assertions.*;
 
 
 
-public class TestVWOLogin_POM {
+public class TestVWOLogin_02_POM {
 		
 	    @Owner("Febil")
 	    @Description("Verify that invalid creds give error message")

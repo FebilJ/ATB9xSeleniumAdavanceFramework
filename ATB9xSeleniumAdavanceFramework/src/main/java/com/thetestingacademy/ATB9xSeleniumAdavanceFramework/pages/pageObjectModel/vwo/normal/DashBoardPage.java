@@ -1,4 +1,4 @@
-package com.thetestingacademy.ATB9xSeleniumAdavanceFramework.pages.pageObjectModel.vwo;
+package com.thetestingacademy.ATB9xSeleniumAdavanceFramework.pages.pageObjectModel.vwo.normal;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
