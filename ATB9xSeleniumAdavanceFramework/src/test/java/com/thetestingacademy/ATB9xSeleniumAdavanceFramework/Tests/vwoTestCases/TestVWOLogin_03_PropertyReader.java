@@ -1,4 +1,4 @@
-package com.thetestingacademy.ATB9xSeleniumAdavanceFramework.Tests.vwoTestCases.PageFactory;
+package com.thetestingacademy.ATB9xSeleniumAdavanceFramework.Tests.vwoTestCases;
 
 import com.thetestingacademy.ATB9xSeleniumAdavanceFramework.utils.PropertiesReader;
 

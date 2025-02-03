@@ -1,4 +1,4 @@
-package com.thetestingacademy.ATB9xSeleniumAdavanceFramework.Tests.vwoTestCases.PageFactory;
+package com.thetestingacademy.ATB9xSeleniumAdavanceFramework.Tests.vwoTestCases;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeOptions;

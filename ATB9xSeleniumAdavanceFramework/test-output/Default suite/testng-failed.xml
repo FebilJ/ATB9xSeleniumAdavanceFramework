@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.thetestingacademy.ATB9xSeleniumAdavanceFramework.Tests.vwoTestCases.PageFactory.TestVWOLogin_04_POM_PropertiesReader">
+      <class name="com.thetestingacademy.ATB9xSeleniumAdavanceFramework.Tests.vwoTestCases.PageFactory.TestVWOLogin_07_Improved_POM_PropertiesReader_DriverManager_Retry">
         <methods>
-          <include name="testLoginNegativeVWO"/>
-          <include name="testLoginPositiveVWO"/>
+          <include name="setUp"/>
+          <include name="testLoginPositiveFailVWO"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.thetestingacademy.ATB9xSeleniumAdavanceFramework.Tests.vwoTestCases.PageFactory.TestVWOLogin_04_POM_PropertiesReader -->
+      </class> <!-- com.thetestingacademy.ATB9xSeleniumAdavanceFramework.Tests.vwoTestCases.PageFactory.TestVWOLogin_07_Improved_POM_PropertiesReader_DriverManager_Retry -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
